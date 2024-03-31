@@ -2,11 +2,34 @@ import { Example } from "./Example";
 
 import styles from "./Example.module.css";
 
+export type ExampleModel = {
+    text: string;
+    value: string;
+};
+
 const DEFAULT_EXAMPLES: string[] = [
-    "What is included in my Northwind Health Plus plan that is not in standard?",
-    "What happens in a performance review?",
-    "What does a Product Manager do?"
+    // "What is included in my Northwind Health Plus plan that is not in standard?",
+    // "What happens in a performance review?",
+    // "What does a Product Manager do?"
+    "When was Howard University founded?",
+    "What are Howard's values?",
+    "How can I apply?"
 ];
+const EXAMPLES: ExampleModel[] = [
+    {
+        text: "When was Howard University founded?",
+        value: "When was Howard University founded?"
+    },
+    {
+        text: "What are Howard's values?",
+        value: "What are Howard's values?"
+    },
+    {
+        text: "How can I apply?",
+        value: "How can I apply?"
+    },
+
+]
 
 const GPT4V_EXAMPLES: string[] = [
     "Compare the impact of interest rates and GDP in financial markets.",

@@ -10,7 +10,7 @@ body {
 }
 
 html {
-    background: #f2f2f2;
+    background: #003A63;
 
     font-family:
         "Segoe UI",
@@ -31,3 +31,80 @@ html {
 #root {
     height: 100%;
 }
+
+h1 {
+    color: #f2f2f2;
+}
+
+h2 {
+    color: #f2f2f2;
+}
+
+/* :root {
+  --hu-blue: #002b7f; /* Howard Blue 
+  --hu-red: #c8102e; /* Howard Red 
+  --hu-white: #ffffff; /* White 
+  --hu-black: #000000; /* Black 
+}
+
+/* Body Styles 
+body {
+  font-family: Arial, sans-serif;
+  background-color: var(--hu-blue);
+  color: var(--hu-black);
+  margin: 0;
+  padding: 0;
+}
+
+/* Header Styles 
+header {
+  background-color: var(--hu-red);
+  padding: 10px 20px;
+}
+
+header h1 {
+  font-size: 24px;
+  margin: 0;
+}
+
+/* Navigation Styles 
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: var(--hu-white);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Footer Styles
+footer {
+  background-color: var(--hu-red);
+  color: var(--hu-white);
+  text-align: center;
+  padding: 20px;
+}
+
+/* Example Logo Styles 
+.logo {
+  width: 100px;
+  height: auto;
+} */

@@ -135,3 +135,7 @@ sup {
     content: "";
     animation: loading 1s infinite;
 }
+
+.answerText {
+    color: #000000;
+}
