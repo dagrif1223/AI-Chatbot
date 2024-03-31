@@ -439,3 +439,4 @@ def create_app():
         app.logger.info("CORS enabled for %s", allowed_origin)
         cors(app, allow_origin=allowed_origin, allow_methods=["GET", "POST"])
     return app
+
