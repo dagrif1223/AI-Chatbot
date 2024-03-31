@@ -13,7 +13,7 @@ const DEFAULT_EXAMPLES: string[] = [
     // "What does a Product Manager do?"
     "When was Howard University founded?",
     "What are Howard's values?",
-    "How can I apply?"
+    "How can I apply as an undergraduate?"
 ];
 const EXAMPLES: ExampleModel[] = [
     {
@@ -25,8 +25,8 @@ const EXAMPLES: ExampleModel[] = [
         value: "What are Howard's values?"
     },
     {
-        text: "How can I apply?",
-        value: "How can I apply?"
+        text: "How can I apply as an undergraduate?",
+        value: "How can I apply as an undergraduate?"
     },
 
 ]
